@@ -26,7 +26,7 @@ interface AppData {
 const DATA_FILE = path.join(process.cwd(), "data.json");
 
 const defaultData: AppData = {
-  adminPasscode: "859796",
+  adminPasscode: "123456",
   googleFormUrl: "https://docs.google.com/forms/d/1cMs13LkQ4f_T4sGtV6RGH5G8t4wlyRHNp1NEljGaRM4/edit",
   allowedIds: [
     "001206000123",
